@@ -1,59 +1,58 @@
 body {
     margin: 0;
-    height: 100vh; /* Altura da tela */
-    font-family: 'Arial', sans-serif; /* Fonte padrão */
-    position: relative; /* Para o pseudo-elemento */
-    overflow: hidden; /* Para evitar rolagem indesejada */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
 }
 
 .background {
-    background-image: url('images/fotona.png'); /* Substitua pelo caminho da sua imagem */
-    background-size: cover; /* Faz a imagem cobrir todo o fundo */
-    background-position: center; /* Centraliza a imagem */
-    position: absolute; /* Para que fique atrás do conteúdo */
+    background-image: url('images/fotona.png');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 0; /* Coloca a imagem atrás do conteúdo */
-    opacity: 0.3; /* Leve transparência na imagem de fundo */
+    z-index: 0;
+    opacity: 0.3;
 }
 
 .carta {
-    background-color: rgba(0, 102, 204, 0.8); /* Cor sólida azul forte */
-    border-radius: 15px; /* Bordas arredondadas */
-    padding: 30px;
-    width: 90%; /* Largura responsiva */
-    max-width: 500px; /* Largura máxima */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Sombra da carta */
-    position: relative; /* Para que o conteúdo fique acima do pseudo-elemento */
-    z-index: 1; /* Coloca a carta acima do fundo */
-    margin: auto; /* Centraliza a carta */
-    top: 50%; /* Centraliza verticalmente */
-    transform: translateY(-50%); /* Ajusta a posição vertical */
-    text-align: center; /* Centraliza o texto */
+    background-color: rgba(0, 100, 200, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 5px 10px gray;
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
 }
 
 h1 {
-    color: #000000; /* Cor do título em preto */
-    font-size: 2.5em; /* Tamanho da fonte do título */
-    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 p {
-    color: #000000; /* Cor do texto em preto */
-    font-size: 1.2em; /* Tamanho da fonte do texto */
-    margin: 10px 0; /* Espaçamento acima e abaixo do texto */
+    color: black;
+    font-size: 16px;
+    margin: 10px 0;
 }
 
 .texto {
-    /* Removido o fundo do espaço para texto */
     padding: 15px;
     margin: 20px 0;
-    min-height: 100px; /* Altura mínima para o espaço de texto */
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000; /* Cor do texto dentro do espaço */
-    font-style: italic; /* Estilo itálico para o texto */
+    color: black;
+    font-style: italic;
 }
